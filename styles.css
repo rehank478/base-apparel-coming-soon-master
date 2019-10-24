@@ -1,0 +1,92 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+  background-image: url("images/bg-pattern-desktop.svg");
+  font-size: 16px;
+}
+
+/* container1 */
+
+.logo{
+  padding: 7% 20% 6%;
+}
+
+.text1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: hsl(0, 93%, 68%);
+  padding: 6% 20% 0;
+}
+
+.text2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding: 0 20%;
+}
+
+.text3{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 2% 20% 0;
+  color: hsl(0, 93%, 68%);
+}
+
+.text4{
+  font-size: 0.75rem;
+  padding: 1% 23% 0;
+  color: hsl(0, 93%, 68%);
+  visibility: hidden;
+}
+
+.text4-error{
+  font-size: 0.75rem;
+  padding: 1% 23% 0;
+  color: hsl(0, 93%, 68%);
+}
+
+input {
+     border-radius: 25px;
+     border: 2px solid hsl(0, 93%, 68%);
+     padding: 20px;
+     width: 400px;
+     height: 15px;
+     margin-left: 20%;
+
+}
+
+.arrow{
+  border-radius: 25px;
+  width: 85px;
+  padding: 11px;
+  border-color: hsl(0, 93%, 68%);
+  background-color: hsl(0, 93%, 68%);
+  margin-left: -80px;
+}
+
+.arrow:hover{
+  background-color: hsl(0, 36%, 70%);
+  border-color: hsl(0, 36%, 70%);
+}
+
+.error-img{
+background: url("images/icon-error.svg") no-repeat scroll top 7px right 90px;
+}
+
+input:focus {
+    outline:none;
+}
+
+
+/* container2 */
+
+.container2{
+
+  text-align: right;
+}
+
+.hero-img{
+  height: 80%;
+}
